@@ -1,0 +1,16 @@
+name: discovering-blind-spots
+channels:
+  - conda-forge
+dependencies:
+- python>=3.5
+- anaconda
+- matplotlib
+- numpy
+- scipy
+- seaborn
+- pip:
+  - scikit-learn
+  - pygame
+  - pyyaml
+  - gym==0.9.5
+  - git+https://github.com/ntasfi/PyGame-Learning-Environment.git

@@ -1,0 +1,10 @@
+save_dir: "catcher_results"
+label_types: ["corrections","demo-action-mismatch","demo-acceptable","random-action-mismatch","random-acceptable"]
+num_runs: 50
+sourceQ_file: "../inputfiles/catcher/source/Q.csv"
+targetQ_file: "../inputfiles/catcher/target/Q.csv"
+target_env: "TargetCatcher-v0"
+percentile: 0.95
+budget_list: "range(250, 7600, 250)"
+percent_data: 0.8
+state_visits: "../inputfiles/catcher/sim_on_real/state_counts.csv"

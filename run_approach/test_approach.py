@@ -350,7 +350,7 @@ if __name__ == '__main__':
     if os.path.exists(save_dir):
         shutil.rmtree(save_dir)
     os.makedirs(save_dir)
-    shutil.copy("run_config.yml", os.path.join(save_dir, "config.yml"))
+    shutil.copy(config_file, os.path.join(save_dir, "config.yml"))
 
     label_types = []
     for i in cfg["label_types"]:
